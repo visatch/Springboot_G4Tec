@@ -2,7 +2,7 @@
     background-color: #2e3133;
 }
 .custom-logo{
-    max-height: 100px;
+    max-height: 90px;
 }
 body{
     font-size: 14px !important;
@@ -48,5 +48,8 @@ body{
 }
 .bg-white{
     background-color: #fff;
+}
+.mb-0{
+   margin-bottom: 0 !important;
 }
 
