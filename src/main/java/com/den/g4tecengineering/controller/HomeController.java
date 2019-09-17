@@ -15,9 +15,9 @@ public class HomeController {
         return "about";
     }
 
-    @GetMapping("/portfolio")
-    public String portfolio(){
-        return "portfolio";
+    @GetMapping("/service")
+    public String service(){
+        return "service";
     }
 
     @GetMapping("/contact-us")
