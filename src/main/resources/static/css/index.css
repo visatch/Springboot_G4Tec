@@ -2,10 +2,10 @@
     background-color: #2e3133;
 }
 .custom-logo{
-    max-height: 120px;
+    max-height: 100px;
 }
 body{
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
 .font-22{
     font-size: 22px !important;
@@ -17,9 +17,9 @@ body{
 .line-height-30px{
     line-height: 30px;
 }
-.line-height-36px{
-    line-height: 36px;
-}
+/*.line-height-36px{*/
+/*    line-height: 36px;*/
+/*}*/
 .border-1{
     border: 1px solid #e2e2e2;
 }
@@ -40,5 +40,13 @@ body{
 .img-hover:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-
+.pt-b-40px{
+    padding: 40px 0;
+}
+.p-1{
+    padding: 1rem !important;
+}
+.bg-white{
+    background-color: #fff;
+}
 
