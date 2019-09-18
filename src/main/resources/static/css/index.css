@@ -23,6 +23,16 @@ body{
 .border-1{
     border: 1px solid #e2e2e2;
 }
+.border-r-1{
+    border-right: 1px solid #e2e2e2;
+}
+.border-l-r-1{
+    border-right: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+}
+.margin-b-35px{
+    margin-bottom: 35px !important; ;
+}
 .border-0{
     border: 0 !important;
 }
