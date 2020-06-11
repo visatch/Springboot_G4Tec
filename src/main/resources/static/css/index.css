@@ -62,4 +62,7 @@ body{
 .mb-0{
    margin-bottom: 0 !important;
 }
+.featured_image {
+    border-radius: 8px;
+}
 
