@@ -65,4 +65,15 @@ body{
 .featured_image {
     border-radius: 8px;
 }
-
+.bg-gray
+{
+    background-color: #f5f5f5;
+}
+.pg-1
+{
+    padding: 15px 10px 15px 10px !important;
+}
+.border-r-1
+{
+    border-radius: 5px;
+}

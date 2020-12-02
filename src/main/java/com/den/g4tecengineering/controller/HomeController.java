@@ -10,6 +10,11 @@ public class HomeController {
         return "index";
     }
 
+    @GetMapping("/glove")
+    public String glove(){
+        return "glove";
+    }
+
     @GetMapping("/about")
     public String about(){
         return "about";
