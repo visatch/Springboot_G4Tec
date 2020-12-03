@@ -2,6 +2,8 @@ $(document).ready(function () {
     homepage()
     // $owlCarousel.trigger("refresh.owl.carousel");
     $('.custom1').owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 4000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         items: 1,
