@@ -71,9 +71,40 @@ body{
 }
 .pg-1
 {
-    padding: 15px 10px 15px 10px !important;
+    padding: 15px 5px 15px 5px;
 }
-.border-r-1
+.border-rad-1
 {
     border-radius: 5px;
+}
+.border-rad-10
+{
+    border-radius: 10px;
+}
+.flex-wrap
+{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.color-yellow, .color-yellow:focus
+{
+    border-color: #164D9E;
+    background-color: #164D9E;
+    outline-color: #fff;
+    color: #fff;
+}
+
+a .color-yellow
+{
+    color: #fff;
+}
+
+#btn-1:visited
+{
+    border-color: #F9CB4A;
+}
+
+.owl-item img
+{
+    border-radius: 10px;
 }
