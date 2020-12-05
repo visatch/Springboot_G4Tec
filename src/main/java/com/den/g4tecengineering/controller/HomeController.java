@@ -11,9 +11,7 @@ public class HomeController {
     }
 
     @GetMapping("/glove")
-    public String glove(){
-        return "glove";
-    }
+    public String glove(){ return "glove"; }
 
     @GetMapping("/glove_spec")
     public String glove_spec(){

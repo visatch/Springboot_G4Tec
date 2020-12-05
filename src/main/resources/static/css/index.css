@@ -93,8 +93,17 @@ body{
     outline-color: #fff;
     color: #fff;
 }
+.m-b-5p
+{
+    margin-bottom: 5px;
+}
 
 a .color-yellow
+{
+    color: #fff;
+}
+
+.t-white
 {
     color: #fff;
 }

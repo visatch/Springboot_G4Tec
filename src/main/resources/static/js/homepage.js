@@ -1,7 +1,9 @@
 $(document).ready(function () {
     homepage()
-    // $owlCarousel.trigger("refresh.owl.carousel");
-    $('.custom1').owlCarousel({
+    var owl = $('.custom1')
+    owl.trigger("refresh.owl.carousel");
+    owl.owlCarousel({
+        opacity: 0,
         autoplay: true,
         autoplayTimeout: 4000,
         animateOut: 'fadeOut',
@@ -20,7 +22,6 @@ $(window).resize(function() {
 
 function homepage()
 {
-    console.log("run")
     if ($(window).width() < 995) {
         $("#primary_nav").find('.menu_close_btn').removeAttr("style","display: none");
         // console.log("small")
