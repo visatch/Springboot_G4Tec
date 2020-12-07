@@ -117,3 +117,11 @@ a .color-yellow
 {
     border-radius: 10px;
 }
+
+.owl-carousel {
+    display: none;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
