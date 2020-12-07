@@ -21,6 +21,12 @@ public class HomeController {
     @GetMapping("/glove_cert")
     public String glove_cert(){ return "glove-cert"; }
 
+    @GetMapping("/glove_pro_line")
+    public String glove_pro_line(){ return "glove-production-line"; }
+
+    @GetMapping("/glove_fac_design")
+    public String glove_fac_design(){ return "glove-factory-design"; }
+
     @GetMapping("/about")
     public String about(){
         return "about";

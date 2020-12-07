@@ -1,7 +1,8 @@
 $(document).ready(function () {
     homepage()
-    var owl = $('.custom1')
-    owl.trigger("refresh.owl.carousel");
+    let owl = $('.custom1')
+    owl.trigger('initialized.owl.carousel').show();
+    // owl.trigger("refresh.owl.carousel");
     owl.owlCarousel({
         opacity: 0,
         autoplay: true,
