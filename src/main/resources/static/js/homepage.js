@@ -1,21 +1,46 @@
+$(window).on('load',function () {
+    initOwlCarousel()
+});
+
 $(document).ready(function () {
     homepage()
+    initOwlCarousel()
+    // let owl = $('.custom1')
+    // owl.trigger('initialized.owl.carousel').show();
+    // // owl.trigger("refresh.owl.carousel");
+    // owl.owlCarousel({
+    //     opacity: 0,
+    //     autoplay: true,
+    //     autoplayTimeout: 4000,
+    //     animateOut: 'fadeOut',
+    //     animateIn: 'fadeIn',
+    //     items: 1,
+    //     margin: 10,
+    //     stagePadding: 10,
+    //     smartSpeed: 400,
+    //     autoHeight: true,
+    // })
+})
+
+function initOwlCarousel()
+{
     let owl = $('.custom1')
-    owl.trigger('initialized.owl.carousel').show();
-    // owl.trigger("refresh.owl.carousel");
     owl.owlCarousel({
-        opacity: 0,
+        autoHeight: true,
+        lazyLoad: true,
+        items: 1,
         autoplay: true,
+        nav: false,
+        dots: true,
+        loop: true,
         autoplayTimeout: 4000,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        items: 1,
         margin: 10,
         stagePadding: 10,
         smartSpeed: 400,
-        autoHeight: true,
-    })
-})
+    });
+}
 
 $(window).resize(function() {
     homepage()
