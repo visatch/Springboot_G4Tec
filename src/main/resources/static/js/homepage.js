@@ -1,9 +1,15 @@
 $(window).on('load',function () {
-    initOwlCarousel()
+    // $(".owl-dots").addClass('disabled').attr("id","dots-1")
 });
 
 $(document).ready(function () {
     homepage()
+    initOwlCarousel()
+
+    // $("#dots-1").attr('disabled');
+   // $(".owl-dots").addClass('disabled');
+    // $(".owl-carousel").removeAttr("style","background: url(\"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/ajax-loader.gif\") no-repeat center center;");
+
     // initOwlCarousel()
     // let owl = $('.custom1')
     // owl.trigger('initialized.owl.carousel').show();
