@@ -27,6 +27,9 @@ public class HomeController {
     @GetMapping("/glove_fac_design")
     public String glove_fac_design(){ return "glove-factory-design"; }
 
+    @GetMapping("/glove_dis")
+    public String glove_dis(){ return "glove-dis"; }
+
     @GetMapping("/about")
     public String about(){
         return "about";

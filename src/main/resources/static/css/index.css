@@ -96,6 +96,7 @@ body{
 .m-b-5p
 {
     margin-bottom: 5px;
+    margin-left: 3px;
 }
 
 a .color-yellow
@@ -133,4 +134,35 @@ a .color-yellow
 }
 .p-r-0{
     padding-right: 0 !important;
+}
+.d-flex
+{
+    display: flex;
+}
+.mb-15
+{
+    margin-bottom: 15px;
+}
+.row .mb-15 h3:after
+{
+    content: '';
+    border-bottom: 3px solid #337ab7;
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    left: 0;
+    right: 0;
+    width: 50px;
+    margin: 0 auto;
+}
+.row-center
+{
+    text-align: center;
+    margin: 0 auto;
+}
+.md-center
+{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
